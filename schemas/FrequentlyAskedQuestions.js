@@ -1,5 +1,5 @@
 export default {
-    name: 'Frequentlyaskedquestions',
+    name: 'FrequentlyAskedQuestions',
     type: 'document',
     title: 'Frequently asked questions',
     fields: [
