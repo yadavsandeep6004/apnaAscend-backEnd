@@ -5,4 +5,6 @@ import SuccessStory from "./SuccessStory";
 import CoursesHeroSection from "./CoursesHeroSection";
 import KeyOffering from "./KeyOffering";
 import CoursePlan from "./CoursePlan";
-export const schemaTypes = [activeCourses, upcomingCourses, FrequentlyAskedQuestions, SuccessStory, CoursesHeroSection,KeyOffering, CoursePlan]
+import boxes from "./boxes";
+
+export const schemaTypes = [activeCourses, upcomingCourses, FrequentlyAskedQuestions, SuccessStory, CoursesHeroSection, KeyOffering, CoursePlan, boxes]

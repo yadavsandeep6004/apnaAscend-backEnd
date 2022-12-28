@@ -1,32 +1,17 @@
 export default {
-    name: 'CoursePlan',
+    name: 'boxes',
     type: 'document',
-    title: 'Course Plan',
+    title: '5 Boxes',
     fields: [
-        {
-            name: 'id',
-            type: 'number',
-            title: 'Id'
-        },
-        {
-            name: 'day',
-            type: 'string',
-            title: 'Day'
-        },
-        {
-            name: 'alt',
-            type: 'string',
-            title: 'Alt'
-        },
         {
             name: 'heading',
             type: 'string',
             title: 'Heading'
         },
         {
-            name: 'about',
+            name: 'title',
             type: 'string',
-            title: 'About'
+            title: 'Title'
         },
         {
             title: 'image',
