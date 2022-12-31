@@ -6,7 +6,7 @@ import CoursesHeroSection from './CoursesHeroSection'
 import KeyOffering from './KeyOffering'
 import CoursePlan from './CoursePlan'
 import boxes from './boxes'
-import com from './com'
+import companyTestimonials from './CompanyTestimonials'
 
 export const schemaTypes = [
   activeCourses,
@@ -17,5 +17,5 @@ export const schemaTypes = [
   KeyOffering,
   CoursePlan,
   boxes,
-  com,
+  companyTestimonials,
 ]

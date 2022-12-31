@@ -1,4 +1,4 @@
-import testDec from './testDec'
+import testimonialsDescription from './TestimonialsDescription'
 
 export default {
   name: 'companyTestimonials',
@@ -15,7 +15,7 @@ export default {
       name: 'image',
       type: 'image',
       options: {
-        hotspot: true, // <-- Defaults to false
+        hotspot: true,
       },
     },
     {
@@ -29,21 +29,26 @@ export default {
       title: 'Name',
     },
     {
+      name: 'domain',
+      type: 'string',
+      title: 'Domain',
+    },
+    {
       title: 'Icon',
       name: 'icon',
       type: 'image',
       options: {
-        hotspot: true, // <-- Defaults to false
+        hotspot: true,
       },
     },
     {
       title: 'Alt icon',
-      name: 'alticon',
+      name: 'altIcon',
       type: 'string',
     },
     {
-      title: 'testDec',
-      name: testDec,
+      title: 'Testimonials Description',
+      name: testimonialsDescription,
       type: 'document',
     },
   ],

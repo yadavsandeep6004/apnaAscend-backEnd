@@ -1,7 +1,7 @@
 export default {
-  name: 'companyTestimonialsDec',
+  name: 'testimonialsDescription',
   type: 'document',
-  title: 'Company Testimonials Dec',
+  title: 'Testimonials Description',
   fields: [
     {
       name: 'id',
@@ -13,18 +13,23 @@ export default {
       name: 'image',
       type: 'image',
       options: {
-        hotspot: true, // <-- Defaults to false
+        hotspot: true,
       },
     },
     {
-      title: 'Alt image',
-      name: 'altImage',
+      title: 'Alt',
+      name: 'alt',
       type: 'string',
     },
     {
       name: 'about',
       type: 'string',
       title: 'About',
+    },
+    {
+      name: 'information',
+      type: 'string',
+      title: 'Information',
     },
   ],
 }
