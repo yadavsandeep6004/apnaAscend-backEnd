@@ -1,25 +1,32 @@
 export default {
-    name: 'UpcomingCourses',
-    type: 'document',
-    title: 'Upcoming Courses',
+    name: "upcomingCourse",
+    type: "document",
+    title: "Upcoming courses",
     fields: [
         {
-            name: 'heading',
-            type: 'string',
-            title: 'heading'
+            name: "icon",
+            type: "image",
+            title: "Icon",
         },
         {
-            name: 'title',
-            type: 'string',
-            title: 'Title'
+            name: "joinWaitlistURL",
+            type: "string",
+            title: "Join Waitlist url",
+        },
+        // {
+        //     name: "courseImage",
+        //     type: "image",
+        //     title: "Upcoming image",
+        // },
+        {
+            name: "title",
+            type: "string",
+            title: "Title",
         },
         {
-            title: 'image',
-            name: 'image',
-            type: 'image',
-            options: {
-                hotspot: true // <-- Defaults to false
-            },
-        }
-    ]
-}
+            name: "description",
+            type: "string",
+            title: "Description",
+        },
+    ],
+};
